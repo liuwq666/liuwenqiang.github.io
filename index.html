@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人作品集</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 顶部导航栏 -->
+    <header class="navbar">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#home">首页</a></li>
+                    <li><a href="#about">关于我</a></li>
+                    <li><a href="#skills">技能</a></li>
+                    <li><a href="#projects">项目</a></li>
+                    <li><a href="#contact">联系我</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 首页大屏 -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>我是 <span>刘文强</span></h1>
+            <p>26应届毕业生 / JAVA开发工程师</p>
+            <p class="subtitle">热爱解决复杂问题的全栈开发者</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn-primary">查看项目</a>
+                <a href="#contact" class="btn-secondary">下载简历</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>关于我</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>我是一名热爱编程的开发者，毕业于井冈山大学计算机专业。</p>
+                    <p>我擅长使用现代后端框架构建响应式网站，注重用户体验和代码质量。</p>
+                    <p>我喜欢不断学习新技术，挑战自己解决复杂问题。</p>
+                    <p>在工作中，我注重团队合作，善于沟通，能够高效地完成项目任务。</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=professional%20programmer%20portrait%20clean%20background&image_size=square" alt="个人照片">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技能栈 -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>技能栈</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>编程语言</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>Redis</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                         <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>工具/框架</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>SSM</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-vuejs"></i>
+                            <span>SpringBoot</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-git"></i>
+                            <span>SpringCloud</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目展示 -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>项目展示</h2>
+            <div class="projects-container">
+                <!-- 项目1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=modern%20web%20application%20dashboard&image_size=landscape_16_9" alt="项目1">
+                    </div>
+                    <div class="project-content">
+                        <h3>项目名称1</h3>
+                        <p>使用React + TypeScript构建的现代Web应用，实现了用户管理、数据可视化等功能。</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>TypeScript</span>
+                            <span>Ant Design</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> 在线预览</a>
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 项目2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=responsive%20e-commerce%20website&image_size=landscape_16_9" alt="项目2">
+                    </div>
+                    <div class="project-content">
+                        <h3>项目名称2</h3>
+                        <p>响应式电商网站，使用Vue 3 + Vite构建，包含商品展示、购物车、支付等功能。</p>
+                        <div class="project-tech">
+                            <span>Vue 3</span>
+                            <span>Vite</span>
+                            <span>Tailwind CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> 在线预览</a>
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 项目3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=personal%20blog%20website%20minimalist%20design&image_size=landscape_16_9" alt="项目3">
+                    </div>
+                    <div class="project-content">
+                        <h3>项目名称3</h3>
+                        <p>个人博客系统，使用Next.js构建，支持Markdown写作、评论功能和响应式设计。</p>
+                        <div class="project-tech">
+                            <span>Next.js</span>
+                            <span>Markdown</span>
+                            <span>Firebase</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> 在线预览</a>
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>联系我</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>18270486351@163.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <span><a href="#" target="_blank">github.com/yourusername</a></span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-weixin"></i>
+                        <span>lwq_52024</span>
+                    </div>
+                </div>
+                <div class="resume-download">
+                    <a href="#" class="btn-primary">下载简历 <i class="fas fa-download"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 个人作品集. 保留所有权利.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
